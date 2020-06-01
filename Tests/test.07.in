@@ -1,0 +1,23 @@
+def a = [3, 2, 1]
+def b = [1, 2, 3]
+[a < b, a > b, a = b, a # b]
+if 1 > 2 {
+  "Hello World?"
+}
+elseif 2 > 3 {
+  "Ciao World?"
+}
+else {
+  "Goodbye World?"
+}
+guard ex {
+  guard ex {
+    "Level 2"
+    raise "World"
+  }
+  catch ex = "Goodbye" { "Once More" }
+}
+catch ex = "World" { "Bye" }
+catch ex = "Goodbye" { "Adieu" }
+catch { "Arivaderci" }
+def add = lambda ( a, b ) { a + b }

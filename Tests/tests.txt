@@ -1,0 +1,10 @@
+00: String tests
+01: Longest identifier abc123
+02: Longest integer
+03: integer no space identifier
+04: All operators with spaces
+05: All operators with new lines
+06: All operators with no spaces
+07: Basic simple program
+08: Large test with spaces
+09: Large test with no spaces
